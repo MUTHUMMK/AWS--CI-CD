@@ -1,0 +1,7 @@
+INSTALL CODE DEPLOY AGENT PREREQUIETIES FOR
+	1. INSTALL RUBY & WGET [ yum install ruby -y ] [ yum install wget -y ]
+	2. INSTALL CODE DEPLOY AGENT [ wget https://aws-codedeploy-us-east-2.s3.us-east-2.amazonaws.com/latest/install ]
+	3.[ chmod +x ./install ]
+	4. [ sudo ./install auto ]
+	5. [ sudo service codedeploy-agent start ]
+	6. [ sudo service codedeploy-agent status ]
